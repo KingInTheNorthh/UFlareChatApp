@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+html, body {
+  background-color: var(--b1); /* Use the theme's base background color */
+  color: var(--bc); /* Optional: Set the text color to match the theme */
+  min-height: 100%;
+  margin: 0;
+}
